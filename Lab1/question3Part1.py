@@ -7,7 +7,4 @@ def wears_jacket(temp, raining):
     >>> wears_jacket(100, True)
     True
     """
-    if (temp >= 60) and not raining:
-        return False
-    else:
-        return True
+    return temp < 60 or raining
