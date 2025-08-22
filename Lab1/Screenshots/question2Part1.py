@@ -10,4 +10,4 @@ def rect_perimeter(width, height):
     >>> rect_perimeter(5, 10) 
     30
     """
-    return 2(width+height)
+    return 2*(width+height)

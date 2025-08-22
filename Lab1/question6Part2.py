@@ -1,1 +1,0 @@
-multiply = lambda variableOne, variableTwo: variableOne*variableTwo

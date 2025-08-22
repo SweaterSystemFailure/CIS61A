@@ -5,4 +5,4 @@ def sumNaturals(n):
     >>> sumNaturals(5) # 1 + 2 + 3 + 4 + 5 = 15
     15
     """
-    return n(n+1)/2
+    return n*(n+1)//2

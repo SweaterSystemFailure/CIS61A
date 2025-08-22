@@ -9,8 +9,8 @@ def a_plus_abs_b(a, b):
     """
 
     if b < 0:
-        f = a + b
+        f = sub
     else:
-        f = a - b
+        f = add
 
     return f(a, b)
